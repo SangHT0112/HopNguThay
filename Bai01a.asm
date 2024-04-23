@@ -1,3 +1,4 @@
+;Bài 1a. S(n)=1+2+3+...+n.
 include irvine32.inc        ; Bao gồm tệp irvine32.inc để sử dụng các hàm và macro trong thư viện Irvine32.
 .386                        ; Chỉ định sử dụng kiến trúc 32-bit.
 .model flat, stdcall        ; Đặc tả mô hình bộ nhớ là flat và cách gọi hàm là stdcall.
