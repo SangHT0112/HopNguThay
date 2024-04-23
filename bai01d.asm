@@ -9,11 +9,13 @@ ExitProcess proto, dwExitCode:dword
 .code
 main proc
   push n
+  call TinhSn1d
+  mov s, eax
   call WriteDec
   call crlf
   call readchar
   invoke ExitProcess, 0
-main end
+main endp
 
 TinhSn1d proc
   push ebp
