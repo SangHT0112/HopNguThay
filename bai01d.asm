@@ -40,6 +40,6 @@ endfor:                     ; Nhãn kết thúc vòng lặp.
   pop ecx                   ; Lấy giá trị của ecx từ stack.
   pop ebx                   ; Lấy giá trị của ebx từ stack.
   pop ebp                   ; Lấy giá trị của ebp từ stack.
-  ret 4d                    ; Trả về và loại bỏ tham số ra khỏi stack.
+  ret 4                    ; Trả về và loại bỏ tham số ra khỏi stack.
 TinhSn1d endp               ; Kết thúc định nghĩa hàm TinhSn1d.
 end main                    ; Kết thúc định nghĩa hàm main.
